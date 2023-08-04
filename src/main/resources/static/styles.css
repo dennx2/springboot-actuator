@@ -1,0 +1,12 @@
+.my-background {
+	background: #335d80;
+}
+
+.my-text {
+	color: white;
+}
+
+footer a:hover {
+	color: rgba(255,255,255,.75);
+}
+
