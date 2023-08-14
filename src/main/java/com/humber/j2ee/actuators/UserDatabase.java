@@ -21,7 +21,7 @@ public class UserDatabase {
 		//Collectors.toList(): used to accumulate the elements of the stream into a List
 		
 	}
-	
+	 
 	public long getUserStatusCountByStatus(String status) {
 		return getAllUsers().stream().filter(user -> user.getStatus().equals(status)).count();
 		//takes a status parameter, retrieves a list of User objects, 
